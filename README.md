@@ -78,4 +78,4 @@ This codebase builds upon the excellent work of:
 
 ## 📄 License
 
-This project is released under the `<LICENSE_NAME>` license. See [LICENSE](LICENSE) for details.
+This work is released under the Apache 2.0 license. The codes are based on BiLLM. Please also follow their licenses. Thanks for their awesome works.
