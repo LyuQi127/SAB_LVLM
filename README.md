@@ -64,6 +64,58 @@ Extensive experiments illustrate the superiority of our SAB-LVLM over existing b
   <em>Figure 1. Overview of SAB-LVLM.</em>
 </p>
 
+---
+## Dependencies
+
+```bash
+# Clone the github repo and go to the default directory.
+git clone https://github.com/LyuQi127/SAB_LVLM
+cd SAB_LVLM
+
+conda create -n sab-lvlm python=3.11
+conda activate sab-lvlm
+pip install torch torchvision torchaudio
+pip install -r requirements.txt
+```
+---
+## Post-training quantization
+
+### Binarization for Qwen2.5-VL families
+
+  ```shell
+  python3 run_arb_mllm_for72B.py Qwen/Qwen2.5-VL-7B-Instruct c4 arb-rc \
+    --blocksize 128 \
+    --salient_metric hessian \
+    --device "cuda:0" \
+    --save \
+    --num_p 1 \
+    --order2_group \
+    --nsamples 128 \
+    --mllm_quant \
+    --adaptive_omega \
+    --salient_top_p 0.05 \
+    --diff_quantile 0.5 \
+    --sparsity_thr 0.005 \
+    --rc_iter 15 \
+  ```
+  ### Binarization for InternVL families
+
+  ```shell
+  python3 run_arb_mllm4.py OpenGVLab/InternVL3_5-14B-Instruct c4 arb-rc \
+    --blocksize 128 \
+    --salient_metric hessian \
+    --device "cuda:0" \
+    --save \
+    --num_p 1 \
+    --order2_group \
+    --nsamples 128 \
+    --mllm_quant \
+    --adaptive_omega \
+    --salient_top_p 0.05 \
+    --diff_quantile 0.5 \
+    --sparsity_thr 0.005 \
+    --rc_iter 15
+  ```
 
 ---
 
