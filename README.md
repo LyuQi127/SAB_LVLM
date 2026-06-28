@@ -121,19 +121,21 @@ pip install -r requirements.txt
 ## 🔎 Results
 
 <details>
-<summary>ARB-LLM achieves superior perplexity performance on WikiText2 datasets. (click to expand)</summary>
+<summary>SAB-LVLM: achieves better performance on MMStar/DocVQA/TextVQA/VideoMME/VSIBench benchmarks. (click to expand)</summary>
 
 - Qwen 2.5 VL family
 <p align="center">
-  <img width="90%" src="SAB_assets/QwenVL2p5.png">
+  <img width="90%" src="SAB_assets/Qwenvl2p5.png">
 </p>
 
 - InternVL 3.5 families
 <p align="center">
   <img width="90%" src="SAB_assets/InternVL3p5.png">
 </p>
+</details>
 
 ---
+
 ## 🙏 Acknowledgements
 
 This codebase builds upon the excellent work of:
