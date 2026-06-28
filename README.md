@@ -127,10 +127,16 @@ pip install -r requirements.txt
 <p align="center">
   <img width="90%" src="assets/Qwenvl2p5.png">
 </p>
+<p align="center">
+  <img width="90%" src="assets\MMStar_detailed_qwen.png">
+</p>
 
 - InternVL 3.5 families
 <p align="center">
   <img width="90%" src="assets/InternVL3p5.png">
+</p>
+<p align="center">
+  <img width="90%" src="assets\MMStar_detailed_internvl.png">
 </p>
 </details>
 
