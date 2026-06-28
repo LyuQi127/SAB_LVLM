@@ -57,7 +57,7 @@ Subsequently, this binarization map is incorporated into the binarization object
 Extensive experiments illustrate the superiority of our SAB-LVLM over existing binary PTQ methods under an approximately 1-bit compression constraint.
 
 <p align="center">
-  <img width="85%" src="SAB_assets/main.png" alt="SAB-LVLM overview">
+  <img width="85%" src="assets/main.png" alt="SAB-LVLM overview">
 </p>
 
 <p align="center">
@@ -125,12 +125,12 @@ pip install -r requirements.txt
 
 - Qwen 2.5 VL family
 <p align="center">
-  <img width="90%" src="SAB_assets/Qwenvl2p5.png">
+  <img width="90%" src="assets/Qwenvl2p5.png">
 </p>
 
 - InternVL 3.5 families
 <p align="center">
-  <img width="90%" src="SAB_assets/InternVL3p5.png">
+  <img width="90%" src="assets/InternVL3p5.png">
 </p>
 </details>
 
