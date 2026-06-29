@@ -12,12 +12,12 @@ Replace all placeholders wrapped by <...>, and delete template notes before rele
 </p>
 
 <p align="center">
-  <strong>SAB-LVLM</strong>: Significance-Aware Binarization for Large Vision-Language Models
+  <strong>SAB-LVLM: Significance-Aware Binarization for Large Vision-Language Models</strong>
 </p>
 
 <p align="center">
-  Qi Lyu<sup>1,2,3,**\***</sup>,
-  Jiahua Dong<sup>4,**\***</sup>,
+  Qi Lyu<sup>1,2,3,*</sup>,
+  Jiahua Dong<sup>4,*</sup>,
   Baichen Liu<sup>1,2</sup>,
   Xudong Wang<sup>1,2,3</sup>,
   Mingfei Han<sup>4</sup>,
